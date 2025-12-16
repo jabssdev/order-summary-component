@@ -23,6 +23,13 @@ module.exports = (_, argv) => {
       },
     },
 
+    ignoreWarnings: [
+      {
+        module: /index\.css$/,
+        message: /Unable to find uri in 'background-image: url\(\)'/,
+      },
+    ],
+
     module: {
       rules: [
         {
