@@ -28,7 +28,7 @@
 }
 
 :root {
-  background-color: hsl(225, 100%, 94%);
+  background-color: var(--color-blue-100);
 }
 
 @theme {
