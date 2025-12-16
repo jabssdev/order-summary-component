@@ -27,6 +27,10 @@
   font-display: swap;
 }
 
+:root {
+  background-color: hsl(225, 100%, 94%);
+}
+
 @theme {
   --color-blue-50: hsl(225, 100%, 98%);
   --color-blue-100: hsl(225, 100%, 94%);
