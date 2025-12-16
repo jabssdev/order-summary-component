@@ -1,0 +1,32 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format:check": "prettier --check 'src/**/*.{js,css,html}'",
+    "format:fix": "prettier --write 'src/**/*.{js,css,html}'",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.4",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.5",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.2.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.1.18",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}

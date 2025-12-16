@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(assets/fonts/Red_Hat_Display/static/RedHatDisplay-Medium.ttf)
+    format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(assets/fonts/Red_Hat_Display/static/RedHatDisplay-Bold.ttf)
+    format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(assets/fonts/Red_Hat_Display/static/RedHatDisplay-Black.ttf)
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-blue-50: hsl(225, 100%, 98%);
+  --color-blue-100: hsl(225, 100%, 94%);
+  --color-blue-700: hsl(245, 75%, 52%);
+  --color-blue-950: hsl(223, 47%, 23%);
+  --color-gray-600: hsl(224, 23%, 55%);
+
+  --font-redhat: 'Red Hat Display', sans-serif;
+}
