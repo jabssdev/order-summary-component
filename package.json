@@ -7,11 +7,16 @@
     "format:check": "prettier --check 'src/**/*.{js,css,html}'",
     "format:fix": "prettier --write 'src/**/*.{js,css,html}'",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "build:analyze": "webpack --mode production --analyze"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "css-loader": "^7.1.2",
@@ -26,6 +31,7 @@
     "style-loader": "^4.0.0",
     "tailwindcss": "^4.1.18",
     "webpack": "^5.103.0",
+    "webpack-bundle-analyzer": "^5.1.0",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
   }

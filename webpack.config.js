@@ -18,6 +18,9 @@ module.exports = (_, argv) => {
     optimization: {
       minimize: isProduction,
       minimizer: [`...`, new CssMinimizerPlugin()],
+      splitChunks: {
+        chunks: 'all',
+      },
     },
 
     module: {
@@ -75,6 +78,7 @@ module.exports = (_, argv) => {
       port: 9000,
       open: true,
       hot: true,
+      historyApiFallback: true,
       watchFiles: ['src/**/*'],
     },
   };
